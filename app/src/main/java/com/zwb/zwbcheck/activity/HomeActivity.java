@@ -32,6 +32,8 @@ public class HomeActivity extends AppCompatActivity {
     private Class mClass[] = {HomeFragment.class, MineFragment.class};
     private Fragment mFragment[] = {HomeFragment.newInstance(), MineFragment.newInstance()};
 
+    
+
     public static void launch(Context context){
         Intent intent = new Intent(context, HomeActivity.class);
         context.startActivity(intent);
